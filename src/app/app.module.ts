@@ -6,9 +6,10 @@ import { AppComponent } from './app.component';
 import { NavbarComponent } from './components/navbar/navbar.component';
 import { LoginComponent } from './components/login/login.component';
 import { AppRoutingModule } from './/app-routing.module';
+import { HomeComponent } from './components/home/home.component';
 
 @NgModule({
-  declarations: [AppComponent, NavbarComponent, LoginComponent],
+  declarations: [AppComponent, NavbarComponent, LoginComponent, HomeComponent],
   imports: [BrowserModule, CollapseModule.forRoot(), BsDropdownModule.forRoot(), AppRoutingModule],
 
   providers: [],
