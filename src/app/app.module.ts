@@ -4,10 +4,13 @@ import { CollapseModule, BsDropdownModule } from 'ngx-bootstrap';
 
 import { AppComponent } from './app.component';
 import { NavbarComponent } from './components/navbar/navbar.component';
+import { LoginComponent } from './components/login/login.component'
 
 @NgModule({
-  declarations: [AppComponent, NavbarComponent],
-  imports: [BrowserModule, CollapseModule.forRoot(), BsDropdownModule.forRoot()],
+
+  declarations: [AppComponent, NavbarComponent, LoginComponent],
+  imports: [BrowserModule, AlertModule.forRoot(), CollapseModule.forRoot(), BsDropdownModule.forRoot()],
+
   providers: [],
   bootstrap: [AppComponent],
 })
